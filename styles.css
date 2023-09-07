@@ -1,24 +1,31 @@
 body{
-    background-color: rgb(237, 205, 240);
+    background-color: rgb(62, 56, 190);
 }
 
 h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 150px;
+    font-size: 200px;
     color: azure;
-    outline-style: solid;
+    /* outline-style: solid;
     outline-offset: 40px;
     outline-width: 30px;
     border-radius: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 150px; */
 
 }
 
-h3{
-    margin-top: 90px;
+h3 a {
+    text-decoration: none; /* removes underline */
+    color: white; /* ensures the link has the same color as surrounding text */
+    font-size: 50px;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px
+    margin-top: 10px;
+}
+
+h3 a:hover {
+    /* any hover effects you want, e.g., changing the color */
+    color: #0366d6; /* GitHub blue, for instance */
 }
 .container{
     display: flex;
@@ -43,6 +50,7 @@ h3{
     gap: 10px;  /* Spacing between the small squares */
     border-radius: 30px;
     border: 30px solid black;    
+    margin-bottom: 60px;
 }
 
 .screen{
@@ -69,12 +77,22 @@ font-size: 40px;
 border-radius: 30px;
 }
 
+
+
 #delete-button{
     border: 8px solid rgb(194, 13, 13);
 }
 
+#delete-button:hover{
+    background-color: rgb(255, 68, 68);
+}
+
 #clear-button{
     border: 8px solid rgb(61, 217, 40);
+}
+
+#clear-button:hover{
+    background-color: rgb(120, 234, 120);
 }
 
 
@@ -91,5 +109,11 @@ border-radius: 30px;
     border-radius: 30px;
     font-size: 36px;
     border: 8px solid rgb(0, 0, 0);
+    
+}
+
+.row1-button:hover{
+   background-color:  rgb(181, 181, 181);
+   
 }
 
