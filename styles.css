@@ -29,9 +29,9 @@ h1{
     flex-wrap: wrap;
     flex-direction: column;
     width: 700px;  /* Size of the big square */
-    height: 900px;
+    height: 900x;
     background-color: #333;
-    padding: 50px;  /* Spacing around the small squares */
+    padding: 50px;
     gap: 10px;  /* Spacing between the small squares */
     border-radius: 30px;
     
@@ -52,12 +52,27 @@ h1{
     height: 7vh;
     gap: 20px;
     width: 700px;
+    margin-bottom: 20px;
     
 }
 
 .clear{
 width: 350px;
 font-size: 40px;
-border-radius: 20px;
+border-radius: 10px;
 
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.row1-button{
+    width: 200px;
+    height: 7vh;
+    border-radius: 20px;
+    font-size: 36px;
 }
