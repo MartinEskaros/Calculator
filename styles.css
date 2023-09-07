@@ -8,9 +8,17 @@ h1{
     font-size: 150px;
     color: azure;
     outline-style: solid;
-    outline-offset: 20px;
-    outline-width: 20px;
+    outline-offset: 40px;
+    outline-width: 30px;
+    border-radius: 20px;
+    margin-bottom: 150px;
 
+}
+
+h3{
+    margin-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px
 }
 .container{
     display: flex;
@@ -34,13 +42,12 @@ h1{
     padding: 50px;
     gap: 10px;  /* Spacing between the small squares */
     border-radius: 30px;
-    
-    
+    border: 30px solid black;    
 }
 
 .screen{
     display: flex;
-    background-color: white;
+    background-color: rgb(199, 199, 199);
     height: 200px;
     width: 700px;
     margin-bottom: 40px;
@@ -59,9 +66,17 @@ h1{
 .clear{
 width: 350px;
 font-size: 40px;
-border-radius: 10px;
-
+border-radius: 30px;
 }
+
+#delete-button{
+    border: 8px solid rgb(194, 13, 13);
+}
+
+#clear-button{
+    border: 8px solid rgb(61, 217, 40);
+}
+
 
 .row{
     display: flex;
@@ -73,6 +88,8 @@ border-radius: 10px;
 .row1-button{
     width: 200px;
     height: 7vh;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 36px;
+    border: 8px solid rgb(0, 0, 0);
 }
+
