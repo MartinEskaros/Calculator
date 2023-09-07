@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(237, 205, 240);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 150px;
+    color: azure;
+    outline-style: solid;
+    outline-offset: 20px;
+    outline-width: 20px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+.calculator{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 700px;  /* Size of the big square */
+    height: 900px;
+    background-color: #333;
+    padding: 50px;  /* Spacing around the small squares */
+    gap: 10px;  /* Spacing between the small squares */
+    border-radius: 30px;
+    
+    
+}
+
+.screen{
+    display: flex;
+    background-color: white;
+    height: 200px;
+    width: 700px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.cnd{
+    display: flex;
+    height: 7vh;
+    gap: 20px;
+    width: 700px;
+    
+}
+
+.clear{
+width: 350px;
+font-size: 40px;
+border-radius: 20px;
+
+}
